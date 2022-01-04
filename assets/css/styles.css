@@ -233,13 +233,14 @@ p {
   }
   #crewH5 {
     color:#FFFFFF;
-    margin-bottom: 5%;
+    margin-bottom: 0%;
   }
   #titleH5 {
       font-family: 'Bellefair', sans-serif;
       color: slategrey;
   }
   #pCrew {
+    padding-top: 20px;
     font-size: 13px;
   }
 
@@ -289,6 +290,8 @@ p {
 } */
 
 .imgSlider {
+       -webkit-appearance: button;
+       -moz-appearance: button;
         appearance: button;
         height: 25px;
         width: 25px;
