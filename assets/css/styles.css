@@ -112,7 +112,7 @@ nav {
     letter-spacing: 5px;
     color: #FFFFFF;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 15%;
 }
 
 p {
@@ -274,4 +274,34 @@ p {
       text-decoration: none;
       color: #D0D6F9; 
       font-size: 16px;
+      z-index: auto;
   }
+
+  /* Button slider */
+
+/* .imgSlider {
+    height: 25px;
+    width: 25px;
+    letter-spacing: 2px;
+    border-radius: 50%;
+    border: solid 1px darkslategray;
+    background-color: slategray;
+} */
+
+.imgSlider {
+        appearance: button;
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        border: solid 3px darkslategray;
+        text-decoration: none;
+        color: initial;
+
+}
+.activeCrew {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    text-decoration: none;
+    border: solid 3px slategrey;
+}
