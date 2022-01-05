@@ -66,13 +66,13 @@ nav {
     flex-flow: row wrap;
     justify-content: space-around;
     margin-top: 5%;
-    margin-bottom: 10%;
 }
 .navCont {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    margin-top: 5%;
+    margin-top: 3%;
+    margin-bottom: 10%;
 }
 .navElement {
     font-family: 'Barlow Condensed', sans-serif;
@@ -81,12 +81,13 @@ nav {
 }
 .navElement a {
     text-decoration: none;
-    font-weight: lighter;
+    font-weight:bolder;
     color: #FFFFFF;
 }
 .active {
     border-bottom: 1px solid slategray;
 }
+
 
 /* Hero */
 
@@ -164,13 +165,14 @@ p {
     color: slategray;
   }      
   #destH1 {
+      margin-top: 10%;
       font-size: 3em;
   }
   #destH5 {
       color: #FFFFFF;
   }
   #pDest {
-      padding-top: 5%;
+      padding-top: 2%;
       line-height: 20px;
       word-spacing: normal;
   }
@@ -247,18 +249,22 @@ p {
   /* Crew page images */
 
   .crewImgHurley {
+      margin-top: 10px;
       height: 50%;
       width: 50%;
   }
   .crewImgShutt {
+    margin-top: 10px;
     height: 46%;
     width: 46%;
 }
 .crewImgGlover {
+    margin-top: 10px;
     height: 58%;
     width: 58%;
 }
 .crewImgAnsari {
+    margin-top: 10px;
     height: 65%;
     width: 65%;
 }
@@ -275,7 +281,7 @@ p {
       text-decoration: none;
       color: #D0D6F9; 
       font-size: 16px;
-      z-index: auto;
+      z-index: 1;
   }
 
   /* Button slider */
@@ -293,18 +299,78 @@ p {
        -webkit-appearance: button;
        -moz-appearance: button;
         appearance: button;
-        height: 25px;
-        width: 25px;
+        height: 15px;
+        width: 15px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
         border-radius: 50%;
         background-color: slategrey;
         border: solid 1px darkslategray;
         text-decoration: none;
-        /* color: initial; */
-
 }
-/* .activeCrew {
-    height: 25px;
-    width: 25px;
+.activeCrew {
+    border-bottom: solid 3px slategrey;
+    border-radius: 10%;
+}
+
+/* Tech Styling */
+
+
+/* Tech Body */
+
+.techBody {
+    background-image: url("../technology/background-technology-mobile.jpg");
+}
+
+/* Tech Image */
+
+.techImgVehicle {
+    margin-top: 5%;
+    height: 100%;
+    width: 100%;
+}
+
+/* Tech Image Slider */
+
+.techNav {
+    display: flex;
+    justify-content: center;
+}
+
+.techNavElement {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    margin: 5px;
+    margin-top: 20px;
+    font-family: 'Bellefair', serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
     border-radius: 50%;
-    background-color: slategrey;
-} */
+    border: 1px solid black;
+}
+
+.techNav a { 
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+
+.techActive {
+    background-color: darkslategray;
+}
+
+/* Tech Typography */
+
+#techH5 {
+    font-size: 16px;
+}
+#techH1 {
+    margin-top: 5px;
+    font-size: 1.5em;
+}
+#pTech {
+    line-height: 15px;
+    font-size: .7em;
+    padding: 20px;
+}
